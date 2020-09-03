@@ -28,14 +28,26 @@ h1 {
 }
 
 .bingo_board_element {
+    
+    /* Center the text */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
+    /* Make the text non-selectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* Other */
     height: 8em;
     background-color: lightblue;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .checked_bingo_element {
