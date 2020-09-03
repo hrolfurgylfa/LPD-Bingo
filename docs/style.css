@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#main_section {
+    max-width: 50em;
+    margin:auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 12px;
+}
+
+#bingo_board {
+    display: grid;
+    width: 40em;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    border: 1px solid black;
+}
+.bingo_board_col {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bingo_board_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 8em;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.checked_bingo_element {
+    background-color: red;
+}
