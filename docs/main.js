@@ -44,7 +44,7 @@ let  bingo_board_options = [
     "Someone complains about Unity",
     "Cheese's radio goes off",
     "Someone plays Beat Saber",
-    "Someone starts a pol. topic",
+    "Someone starts a political topic",
     "Someone changes the topic to anime",
     "Someone stays muted for over 10 minutes"
 ]
